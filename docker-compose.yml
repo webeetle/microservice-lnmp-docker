@@ -1,4 +1,4 @@
-# web server
+# LNMP Microservice
 version: "3"
 services:
 
@@ -30,13 +30,6 @@ services:
       - ./app:/var/www/app
       # Your php.ini
       - ./docker-conf/php/php.ini:/usr/local/etc/php/php.ini
-    # environment:
-      # Set your APP env variables here:
-      # - APP_KEY=
-      # - DB_HOST=
-      # - DB_DATABASE=
-      # - DB_USERNAME=
-      # - DB_PASSWORD=
     links:
       - mysql
 
