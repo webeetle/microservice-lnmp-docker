@@ -12,7 +12,7 @@ The whole app is divided into three Containers:
 2. PHP or PHP-FPM is put in `app_php` Container, it retrieves php scripts from host, interprets, executes then responses to Nginx. If necessary, it will connect to `app_mysql` as well.
 3. MySQL lies in `app_mysql` Container, 
 
-Our app scripts are located on host, you can edit files directly without rebuilding/restarting whole images/containers.
+Our app scripts are located in the `app` folder and the mysql file in the `mysql-data` folder, you can edit files directly without rebuilding/restarting whole images/containers.
 
 ### Build and Run
 
