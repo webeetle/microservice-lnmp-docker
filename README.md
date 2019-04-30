@@ -1,6 +1,6 @@
 # Introduction
 
-Deploy a LNMP (Linux, Nginx, MySQL, PHP7) micro-service using docker.
+Deploy a LNMP (Linux, Nginx, MySQL, PHP7) micro-service using docker. 
 
 ### Architecture
 
